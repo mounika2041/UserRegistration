@@ -13,8 +13,9 @@ namespace User_Registration
             Console.WriteLine("welcome to user Registration");
             //UserRegistration.FirstName();
             //UserRegistration.LastName();
-           // UserRegistration.validateEmail();
-            UserRegistration.mobileNumber();
+            //UserRegistration.validateEmail();
+            //UserRegistration.mobileNumber();
+            UserRegistration.ValidatePassword();
             Console.ReadLine();
         }
     }
