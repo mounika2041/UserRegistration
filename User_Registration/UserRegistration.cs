@@ -51,5 +51,19 @@ namespace User_Registration
             else
                 Console.WriteLine("{0} is invalid EmailId", EmailId);
         }
+        public static void mobileNumber()
+        {
+            string mobileNumber;
+            var regex = @"^[0-9]{2}[\s][0-9]{10}$";
+            Console.WriteLine("Enter a mobileNumber");
+            mobileNumber = Console.ReadLine();
+            bool result = Regex.IsMatch(mobileNumber, regex);
+            if (result)
+            {
+                Console.WriteLine("{0} is valid mobileNumber", mobileNumber);
+            }
+            else
+                Console.WriteLine("{0} is invalid mobileNumber", mobileNumber);
+        }
     }
 }

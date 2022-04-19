@@ -11,9 +11,10 @@ namespace User_Registration
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to user Registration");
-           // UserRegistration.FirstName();
-           // UserRegistration.LastName();
-            UserRegistration.validateEmail();
+            //UserRegistration.FirstName();
+            //UserRegistration.LastName();
+           // UserRegistration.validateEmail();
+            UserRegistration.mobileNumber();
             Console.ReadLine();
         }
     }
